@@ -1,0 +1,17 @@
+criar virtualenv
+py -3 -m venv .venv
+
+ativar
+.venv\Scripts\activate
+
+instalar o django:
+pip install django
+
+criar nosso projeto:
+django-admin startproject "nome do projeto" .
+
+criar nossa app:
+django-admin startapp "nome da app"
+
+criar super usuário:
+python manage.py createsuperuser
